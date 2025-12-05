@@ -34,3 +34,6 @@ results.csv
 # Ignore local environment configs
 .env
 *.pem
+
+# Ignore the frontend workspace folder (we push backend only)
+/yolo-frontend/
