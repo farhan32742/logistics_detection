@@ -1,0 +1,36 @@
+# Ignore typical Python artifacts and large files
+# Keep `best.pt` tracked but ignore other .pt model files
+
+# Ignore all .pt files
+*.pt
+# Except keep best.pt
+!best.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Data and checkpoints
+data/
+datasets/
+weights/
+checkpoints/
+results.csv
+*.log
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore local environment configs
+.env
+*.pem
